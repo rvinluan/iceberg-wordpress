@@ -475,6 +475,13 @@ article {
     #content aside {
         width: 100%;
         margin-bottom: 100px;
+        height: auto;
+
+        .twitter-link {
+            position: static;
+            margin-top: 1.3em;
+            display: block;
+        }
 
         .archive &,
         .tag & {

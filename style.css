@@ -513,57 +513,64 @@ article .embed .generic-link-out > div svg path {
   #content aside {
     width: 100%;
     margin-bottom: 100px;
+    height: auto;
   }
-  /* line 479, style.scss */
+  /* line 480, style.scss */
+  #content aside .twitter-link {
+    position: static;
+    margin-top: 1.3em;
+    display: block;
+  }
+  /* line 486, style.scss */
   .archive #content aside, .tag #content aside {
     display: none;
   }
 
-  /* line 485, style.scss */
+  /* line 492, style.scss */
   #primary {
     width: 100%;
   }
 
-  /* line 489, style.scss */
+  /* line 496, style.scss */
   article {
     left: 0;
   }
-  /* line 492, style.scss */
+  /* line 499, style.scss */
   article .title h2 {
     font-size: 60px;
   }
 }
 @media (max-width: 800px) {
-  /* line 499, style.scss */
+  /* line 506, style.scss */
   #about-page .about-text,
   #about-page .social {
     width: 100%;
     border-right: none;
   }
 
-  /* line 505, style.scss */
+  /* line 512, style.scss */
   #about-page .social {
     border-top: 1px solid #2C5EAC;
   }
 }
 @media (max-width: 500px) {
-  /* line 512, style.scss */
+  /* line 519, style.scss */
   article .tags,
   article .title,
   article .embed,
   article .link-title {
     width: 100%;
   }
-  /* line 519, style.scss */
+  /* line 526, style.scss */
   article .title {
     min-height: 0;
   }
-  /* line 523, style.scss */
+  /* line 530, style.scss */
   article .tags {
     border-top: 1px solid #2C5EAC;
     min-height: 0;
   }
-  /* line 528, style.scss */
+  /* line 535, style.scss */
   article .tags,
   article .embed {
     border-left: none;
