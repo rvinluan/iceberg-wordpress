@@ -373,6 +373,29 @@ article {
     }
 }
 
+.pagination {
+    width: 100%;
+    margin-top: 300px;
+
+    .nav-previous,
+    .nav-next {
+        @include input-sans(16px, 1);
+        padding: 10px;
+        border: 1px solid $blue-2;
+        color: $blue-2;
+        a {
+            text-decoration: none;
+        }
+    }
+
+    .nav-previous {
+        float: right;
+    }
+    .nav-next {
+        float: left;
+    }
+}
+
 .site-footer {
     background-color: black;
     min-height: 100vh;

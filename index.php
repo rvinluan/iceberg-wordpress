@@ -40,9 +40,16 @@ get_sidebar(); ?>
 				get_template_part( 'template-parts/content', get_post_format() );
 
 			endwhile;
-
-			the_posts_navigation();
-
+			?>
+			<div class="pagination">
+			 <?php if( get_next_posts_link() ) : ?>
+					<div class="nav-previous"><?php next_posts_link( 'Older' ); ?></div>
+				<? endif;
+				if (get_previous_posts_link()) : ?>
+					<div class="nav-next"><?php previous_posts_link( 'Newer' ); ?></div>
+				<? endif; ?>
+			</div>
+		<?php
 		else :
 
 			get_template_part( 'template-parts/content', 'none' );
