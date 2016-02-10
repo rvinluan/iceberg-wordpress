@@ -27,7 +27,23 @@
 <div id="page" class="site">
 	<header id="masthead" class="site-header" role="banner">
 		<div class="site-branding">
+		<?php
+				function randomErrorMessage() {
+					$messages = [
+						"There's nothing here.",
+						"Lost at sea?",
+						"It's quiet out here.",
+						"Hello?",
+						"You hear the sound of waves."
+					];
+					echo $messages[array_rand($messages)];
+				} 
+				if (is_404()) : 
+				?>
+				<h1 class="error-page-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php randomErrorMessage(); ?></a></h1>
+		<?php else : ?>
 				<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
+		<?php endif; ?>
 		</div><!-- .site-branding -->
 		<div class="gradient-piece gradient-1"></div>
 		<div class="gradient-piece gradient-2"></div>

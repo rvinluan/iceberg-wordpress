@@ -80,6 +80,12 @@ ul {
         right: 0;
         margin: auto;
 
+        &.error-page-title {
+            @include more(24px, 1);
+            letter-spacing: 0;
+            text-transform: none;
+        }
+
         a {
             text-decoration: none;
             &:hover {
@@ -481,10 +487,12 @@ article {
 //ERRORS!
 .error404 {
     #primary {
-        width: 100%;
+        width: 500px;
+        margin: 0 auto;
     }
     #content {
         text-align: center;
+        position: relative;
 
         h1 {
             @include more(45px, 1);

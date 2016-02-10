@@ -7,20 +7,4 @@
  * @package iceberg
  */
 
-get_header(); ?>
-
-	<div id="primary" class="content-area">
-		<main id="main" class="site-main" role="main">
-
-			<section class="error-404 not-found">
-				<div class="page-content">
-					<h1>Lost?</h1>
-					<a href="/">Head back</a>
-				</div><!-- .page-content -->
-			</section><!-- .error-404 -->
-
-		</main><!-- #main -->
-	</div><!-- #primary -->
-
-<?php
-get_footer();
+get_header();
