@@ -27,7 +27,11 @@
 	    <h3><?php echo get_post_custom_values("subtitle")[0]; ?></h3>
 	</div>
 	<div class="link-title">
-	    <div class="section-label"><?php echo get_post_custom_values("link type")[0]; ?></div>
+			<?php if (get_post_custom_values('link embed')[0] != null) : ?>
+		    <div class="section-label"><?php echo get_post_custom_values("link type")[0]; ?></div>
+		  <?php else : ?>
+		  	<div class="section-label">nothing</div>
+		  <?php endif; ?>
 	    <a href="<?php echo get_post_custom_values('link url')[0]; ?>"><?php echo get_post_custom_values("link title")[0]; ?></a>
 	</div>
 	<div class="embed">
