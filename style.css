@@ -7,7 +7,7 @@
 /* line 21, style.scss */
 html, body {
   margin: 0;
-  padding: 0;
+  padding: 1px;
   -webkit-font-smoothing: antialiased;
   font-variant-ligatures: common-ligatures;
   background-color: #141947;
