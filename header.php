@@ -50,7 +50,7 @@
 		<div class="gradient-piece gradient-3"></div>
 	</header><!-- #masthead -->
 
-	<?php if (!is_home() && !is_page() && !is_404()) : ?>
+	<?php if (is_archive() || is_tag()) : ?>
 		<h2 class="other-page-title">
 			<a href="/">×</a>
 			<span> <?php the_archive_title() ?> </span>

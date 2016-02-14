@@ -38,6 +38,18 @@ ul {
   border-top: 1px solid transparent;
 }
 /* line 71, style.scss */
+.single #masthead {
+  height: 70px;
+}
+/* line 74, style.scss */
+.single #masthead h1 {
+  position: static;
+  margin-top: 14px;
+  font-size: 17px;
+  text-align: left;
+  margin-left: 5%;
+}
+/* line 83, style.scss */
 #masthead h1 {
   text-align: center;
   font-family: "Input Sans Narr Lt", sans-serif;
@@ -54,7 +66,7 @@ ul {
   right: 0;
   margin: auto;
 }
-/* line 83, style.scss */
+/* line 95, style.scss */
 #masthead h1.error-page-title {
   font-family: "ff-more-web-pro", Georgia, sans-serif;
   font-style: normal;
@@ -64,15 +76,15 @@ ul {
   letter-spacing: 0;
   text-transform: none;
 }
-/* line 89, style.scss */
+/* line 101, style.scss */
 #masthead h1 a {
   text-decoration: none;
 }
-/* line 91, style.scss */
+/* line 103, style.scss */
 #masthead h1 a:hover {
   color: white;
 }
-/* line 97, style.scss */
+/* line 109, style.scss */
 #masthead .triangle {
   position: absolute;
   bottom: 27px;
@@ -90,30 +102,30 @@ ul {
     left: 100px;
   }
 }
-/* line 113, style.scss */
+/* line 125, style.scss */
 #masthead .gradient-piece {
   position: absolute;
   bottom: 0;
   left: 0;
   right: 0;
 }
-/* line 120, style.scss */
+/* line 132, style.scss */
 #masthead .gradient-1 {
   background-color: #3EAEE3;
   height: 30px;
 }
-/* line 124, style.scss */
+/* line 136, style.scss */
 #masthead .gradient-2 {
   background-color: #2C5EAC;
   height: 20px;
 }
-/* line 128, style.scss */
+/* line 140, style.scss */
 #masthead .gradient-3 {
   background-color: #253270;
   height: 10px;
 }
 
-/* line 134, style.scss */
+/* line 146, style.scss */
 .section-label {
   font-family: "Input Sans Narr Lt", sans-serif;
   font-style: normal;
@@ -127,7 +139,7 @@ ul {
   text-transform: uppercase;
 }
 
-/* line 143, style.scss */
+/* line 155, style.scss */
 .other-page-title {
   font-family: "Input Sans Narr Lt", sans-serif;
   font-style: normal;
@@ -140,18 +152,18 @@ ul {
   text-transform: uppercase;
   margin-top: 100px;
 }
-/* line 151, style.scss */
+/* line 163, style.scss */
 .other-page-title a {
   text-decoration: none;
 }
-/* line 155, style.scss */
+/* line 167, style.scss */
 .other-page-title span {
   border: 1px solid #2C5EAC;
   padding: 20px 40px;
   position: relative;
   display: inline-block;
 }
-/* line 161, style.scss */
+/* line 173, style.scss */
 .other-page-title span:after {
   content: "";
   position: absolute;
@@ -161,7 +173,7 @@ ul {
   border-left: 1px solid #2C5EAC;
 }
 
-/* line 173, style.scss */
+/* line 185, style.scss */
 #content {
   width: 90%;
   max-width: 1125px;
@@ -171,7 +183,7 @@ ul {
   display: flex;
   flex-wrap: wrap;
 }
-/* line 182, style.scss */
+/* line 194, style.scss */
 #content aside {
   border: 1px solid #2C5EAC;
   width: 30%;
@@ -185,17 +197,17 @@ ul {
   font-size: 15px;
   line-height: 1.3;
 }
-/* line 191, style.scss */
+/* line 203, style.scss */
 #content aside p {
   color: #BDE5EC;
   padding: 10px;
   margin-top: 0;
 }
-/* line 197, style.scss */
+/* line 209, style.scss */
 #content aside .about-link {
   padding: 10px;
 }
-/* line 201, style.scss */
+/* line 213, style.scss */
 #content aside .twitter-link {
   color: #BDE5EC;
   padding: 10px;
@@ -204,7 +216,7 @@ ul {
   left: 0;
 }
 
-/* line 211, style.scss */
+/* line 223, style.scss */
 #primary {
   font-size: 1rem;
   position: relative;
@@ -213,7 +225,7 @@ ul {
   box-sizing: border-box;
 }
 
-/* line 219, style.scss */
+/* line 231, style.scss */
 article {
   border: 1px solid #2C5EAC;
   display: flex;
@@ -222,7 +234,7 @@ article {
   left: -1px;
   margin-bottom: 200px;
 }
-/* line 227, style.scss */
+/* line 239, style.scss */
 article:after {
   content: "—";
   position: absolute;
@@ -233,47 +245,47 @@ article:after {
   font-size: 30px;
   color: #2C5EAC;
 }
-/* line 238, style.scss */
+/* line 250, style.scss */
 article div {
   box-sizing: border-box;
 }
-/* line 244, style.scss */
+/* line 256, style.scss */
 article .tags,
 article .link-title {
   width: 30%;
 }
-/* line 249, style.scss */
+/* line 261, style.scss */
 article .title,
 article .embed {
   width: 70%;
 }
-/* line 254, style.scss */
+/* line 266, style.scss */
 article .subtitle,
 article .entry-content,
 article .meta {
   width: 100%;
 }
-/* line 260, style.scss */
+/* line 272, style.scss */
 article .section-label,
 article .embed {
   border-top: 1px solid #2C5EAC;
 }
-/* line 265, style.scss */
+/* line 277, style.scss */
 article .tags,
 article .embed {
   border-left: 1px solid #2C5EAC;
 }
-/* line 270, style.scss */
+/* line 282, style.scss */
 article .tags,
 article .title {
   min-height: 300px;
 }
-/* line 272, style.scss */
+/* line 284, style.scss */
 article .tags .section-label,
 article .title .section-label {
   border-top: none;
 }
-/* line 279, style.scss */
+/* line 291, style.scss */
 article .meta li {
   display: inline-block;
   color: white;
@@ -284,7 +296,7 @@ article .meta li {
   line-height: 1.3;
   margin-right: 10px;
 }
-/* line 289, style.scss */
+/* line 301, style.scss */
 article .title h2 {
   font-family: "Brooklyn", Georgia, sans-serif;
   font-style: normal;
@@ -294,7 +306,7 @@ article .title h2 {
   margin: 0 0 50px 0;
   padding: 20px;
 }
-/* line 296, style.scss */
+/* line 308, style.scss */
 article .subtitle h3 {
   font-family: "ff-more-web-pro", Georgia, sans-serif;
   font-style: normal;
@@ -304,11 +316,11 @@ article .subtitle h3 {
   margin: 0;
   padding: 20px;
 }
-/* line 303, style.scss */
+/* line 315, style.scss */
 article .entry-content .section-label {
   margin-bottom: 20px;
 }
-/* line 306, style.scss */
+/* line 318, style.scss */
 article .entry-content p {
   font-family: "ff-more-web-pro", Georgia, sans-serif;
   font-style: normal;
@@ -318,11 +330,11 @@ article .entry-content p {
   margin: 10px 20px 0 20px;
   text-indent: 1em;
 }
-/* line 310, style.scss */
+/* line 322, style.scss */
 article .entry-content p:last-of-type {
   margin-bottom: 20px;
 }
-/* line 315, style.scss */
+/* line 327, style.scss */
 article .tags {
   font-family: "Input Sans Narr Lt", sans-serif;
   font-style: normal;
@@ -331,7 +343,7 @@ article .tags {
   line-height: 1.3;
   color: white;
 }
-/* line 319, style.scss */
+/* line 331, style.scss */
 article .link-title {
   font-family: "Input Sans Narr Lt", sans-serif;
   font-style: normal;
@@ -340,22 +352,22 @@ article .link-title {
   line-height: 1.3;
   color: white;
 }
-/* line 323, style.scss */
+/* line 335, style.scss */
 article .link-title a {
   padding: 20px;
   display: block;
 }
-/* line 330, style.scss */
+/* line 342, style.scss */
 article .embed {
   padding: 5px;
 }
-/* line 332, style.scss */
+/* line 344, style.scss */
 article .embed iframe,
 article .embed blockquote,
 article .embed img {
   width: 100%;
 }
-/* line 337, style.scss */
+/* line 349, style.scss */
 article .embed blockquote {
   margin: 0;
   padding: 20px 20px 20px 30px;
@@ -369,24 +381,24 @@ article .embed blockquote {
   text-indent: -.4em;
   color: #2C5EAC;
 }
-/* line 346, style.scss */
+/* line 358, style.scss */
 article .embed .video-placeholder {
   width: 100%;
   padding-bottom: 56.25%;
   background-color: black;
 }
-/* line 351, style.scss */
+/* line 363, style.scss */
 article .embed .generic-link-out {
   display: block;
   width: 100%;
   padding-bottom: 56.25%;
   position: relative;
 }
-/* line 357, style.scss */
+/* line 369, style.scss */
 article .embed .generic-link-out:hover svg path {
   fill: #3EAEE3;
 }
-/* line 361, style.scss */
+/* line 373, style.scss */
 article .embed .generic-link-out > div {
   font-size: 3em;
   position: absolute;
@@ -398,23 +410,23 @@ article .embed .generic-link-out > div {
   right: 0;
   bottom: 0;
 }
-/* line 369, style.scss */
+/* line 381, style.scss */
 article .embed .generic-link-out > div svg {
   width: 55px;
   vertical-align: middle;
   display: inline;
 }
-/* line 370, style.scss */
+/* line 382, style.scss */
 article .embed .generic-link-out > div svg path {
   fill: #BDE5EC;
 }
 
-/* line 382, style.scss */
+/* line 394, style.scss */
 .pagination {
   width: 100%;
   margin-top: 300px;
 }
-/* line 386, style.scss */
+/* line 398, style.scss */
 .pagination .nav-previous,
 .pagination .nav-next {
   font-family: "Input Sans Narr Lt", sans-serif;
@@ -426,21 +438,21 @@ article .embed .generic-link-out > div svg path {
   border: 1px solid #2C5EAC;
   color: #2C5EAC;
 }
-/* line 392, style.scss */
+/* line 404, style.scss */
 .pagination .nav-previous a,
 .pagination .nav-next a {
   text-decoration: none;
 }
-/* line 397, style.scss */
+/* line 409, style.scss */
 .pagination .nav-previous {
   float: right;
 }
-/* line 400, style.scss */
+/* line 412, style.scss */
 .pagination .nav-next {
   float: left;
 }
 
-/* line 405, style.scss */
+/* line 417, style.scss */
 .site-footer {
   background-color: black;
   min-height: 100vh;
@@ -448,57 +460,57 @@ article .embed .generic-link-out > div svg path {
   background: linear-gradient(#141947, black);
 }
 
-/* line 414, style.scss */
+/* line 426, style.scss */
 .page-content {
   width: 100%;
 }
 
-/* line 418, style.scss */
+/* line 430, style.scss */
 #page-main {
   border: 1px solid #2C5EAC;
   width: 100%;
 }
-/* line 422, style.scss */
+/* line 434, style.scss */
 #page-main article {
   border: none;
   margin: 40px 0;
 }
-/* line 426, style.scss */
+/* line 438, style.scss */
 #page-main article p {
   text-indent: 0;
   padding-left: 20px;
 }
-/* line 431, style.scss */
+/* line 443, style.scss */
 #page-main article a {
   text-decoration: none;
   font-style: italic;
 }
-/* line 435, style.scss */
+/* line 447, style.scss */
 #page-main article a:hover {
   text-decoration: underline;
 }
-/* line 440, style.scss */
+/* line 452, style.scss */
 #page-main article:after {
   display: none;
 }
-/* line 445, style.scss */
+/* line 457, style.scss */
 #page-main hr {
   border: none;
   border-top: 1px solid #2C5EAC;
 }
 
-/* line 454, style.scss */
+/* line 466, style.scss */
 #about-page #page-main {
   display: flex;
   flex-wrap: wrap;
 }
-/* line 458, style.scss */
+/* line 470, style.scss */
 #about-page .about-text {
   width: 70%;
   border-right: 1px solid #2C5EAC;
   box-sizing: border-box;
 }
-/* line 463, style.scss */
+/* line 475, style.scss */
 #about-page .about-text p {
   font-family: "ff-more-web-pro", Georgia, sans-serif;
   font-style: normal;
@@ -507,16 +519,16 @@ article .embed .generic-link-out > div svg path {
   line-height: 1.4;
   margin: 0 20px;
 }
-/* line 469, style.scss */
+/* line 481, style.scss */
 #about-page .social {
   width: 30%;
 }
-/* line 472, style.scss */
+/* line 484, style.scss */
 #about-page .colophon {
   width: 100%;
   border-top: 1px solid #2C5EAC;
 }
-/* line 476, style.scss */
+/* line 488, style.scss */
 #about-page .social,
 #about-page .colophon {
   font-family: "Input Sans Narr Lt", sans-serif;
@@ -526,23 +538,23 @@ article .embed .generic-link-out > div svg path {
   line-height: 1.3;
   letter-spacing: 0;
 }
-/* line 481, style.scss */
+/* line 493, style.scss */
 #about-page .social p,
 #about-page .colophon p {
   margin: 20px;
 }
 
-/* line 489, style.scss */
+/* line 501, style.scss */
 .error404 #primary {
   width: 500px;
   margin: 0 auto;
 }
-/* line 493, style.scss */
+/* line 505, style.scss */
 .error404 #content {
   text-align: center;
   position: relative;
 }
-/* line 497, style.scss */
+/* line 509, style.scss */
 .error404 #content h1 {
   font-family: "ff-more-web-pro", Georgia, sans-serif;
   font-style: normal;
@@ -552,68 +564,68 @@ article .embed .generic-link-out > div svg path {
 }
 
 @media (max-width: 900px) {
-  /* line 506, style.scss */
+  /* line 518, style.scss */
   #content aside {
     width: 100%;
     margin-bottom: 100px;
     height: auto;
   }
-  /* line 511, style.scss */
+  /* line 523, style.scss */
   #content aside .twitter-link {
     position: static;
     margin-top: 1.3em;
     display: block;
   }
-  /* line 517, style.scss */
+  /* line 529, style.scss */
   .archive #content aside, .tag #content aside {
     display: none;
   }
 
-  /* line 523, style.scss */
+  /* line 535, style.scss */
   #primary {
     width: 100%;
   }
 
-  /* line 527, style.scss */
+  /* line 539, style.scss */
   article {
     left: 0;
   }
-  /* line 530, style.scss */
+  /* line 542, style.scss */
   article .title h2 {
     font-size: 60px;
   }
 }
 @media (max-width: 800px) {
-  /* line 537, style.scss */
+  /* line 549, style.scss */
   #about-page .about-text,
   #about-page .social {
     width: 100%;
     border-right: none;
   }
 
-  /* line 543, style.scss */
+  /* line 555, style.scss */
   #about-page .social {
     border-top: 1px solid #2C5EAC;
   }
 }
 @media (max-width: 500px) {
-  /* line 550, style.scss */
+  /* line 562, style.scss */
   article .tags,
   article .title,
   article .embed,
   article .link-title {
     width: 100%;
   }
-  /* line 557, style.scss */
+  /* line 569, style.scss */
   article .title {
     min-height: 0;
   }
-  /* line 561, style.scss */
+  /* line 573, style.scss */
   article .tags {
     border-top: 1px solid #2C5EAC;
     min-height: 0;
   }
-  /* line 566, style.scss */
+  /* line 578, style.scss */
   article .tags,
   article .embed {
     border-left: none;

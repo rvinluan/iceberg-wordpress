@@ -56,4 +56,14 @@
 	    	the_content();
 	    ?>
 	 </div>
+	 <div class="meta">
+		 <div class="section-label">share</div>
+	 	<ul>
+	 		<li><a href="">Facebook</a></li>
+	 		<li>
+	 			<a href="http://twitter.com/intent/tweet?via=icebergdotcool&url=<?php echo get_permalink(); ?>">Twitter</a>
+	 		</li>
+	 		<li><a href="<?php echo get_permalink(); ?>">Permalink</a></li>
+	 	</ul>
+	 </div>
 </article><!-- #post-## -->

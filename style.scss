@@ -68,6 +68,18 @@ ul {
     position: relative;
     border-top: 1px solid transparent;
 
+    .single & {
+        height: 70px;
+
+        h1 {
+            position: static;
+            margin-top: 14px;
+            font-size: 17px;
+            text-align: left;
+            margin-left: 5%;
+        }
+    }
+
     h1 {
         text-align: center;
         @include input-sans(24px, 1);
