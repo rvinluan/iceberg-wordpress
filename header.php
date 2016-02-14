@@ -16,6 +16,30 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
+<!-- Twitter Card -->
+<?php
+if(is_single() || is_page()) {
+	$twitter_url    = get_permalink();
+ 	$twitter_title  = get_the_title();
+	$twitter_desc   = get_post_custom_values("subtitle")[0];
+   $twitter_thumbs = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), full );
+	$twitter_thumb  = $twitter_thumbs[0];
+   if(!$twitter_thumb) {
+		$twitter_thumb = get_bloginfo('template_url') . '/images/iceberg-twitter-card.png';
+	}
+	$twitter_name = get_the_author_meta('nickname', $post->post_author);
+?>
+<meta name="twitter:card" value="summary" />
+<meta name="twitter:url" value="<?php echo $twitter_url; ?>" />
+<meta name="twitter:title" value="<?php echo $twitter_title; ?>" />
+<meta name="twitter:description" value="<?php echo $twitter_desc; ?>" />
+<meta name="twitter:image" value="<?php echo $twitter_thumb; ?>" />
+<meta name="twitter:site" value="@theicebergdotcool" />
+<meta name="twitter:creator" value="<?php echo $twitter_name; ?>" />
+<?
+}
+?>
+<!-- Typography -->
 <link href="//cloud.webtype.com/css/711a5d35-acce-4765-9093-f280ff4e4222.css" rel="stylesheet" type="text/css" />
 <script src="https://use.typekit.net/beo3fkm.js"></script>
 <script>try{Typekit.load({ async: true });}catch(e){}</script>
