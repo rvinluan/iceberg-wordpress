@@ -341,6 +341,10 @@ article {
     //other?
     .embed {
         padding: 5px;
+        
+        a {
+            text-decoration: none;
+        }
         iframe,
         blockquote,
         img {

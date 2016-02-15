@@ -38,9 +38,13 @@
 		<?php if (get_post_custom_values('link embed')[0] != null) : ?>
 			<?php echo get_post_custom_values("link embed")[0]; ?>
 		<?php elseif (get_post_custom_values('link image url')[0] != null) : ?>
+			<a href="<?php echo get_post_custom_values('link url')[0]; ?>">
 			<img src='<?php echo get_post_custom_values("link image url")[0]; ?>'>
+			</a>
 		<?php elseif (get_post_custom_values('link quote')[0] != null) : ?>
+			<a href="<?php echo get_post_custom_values('link url')[0]; ?>">
 			<blockquote>“<?php echo get_post_custom_values("link quote")[0]; ?>”</blockquote>
+			</a>
 		<?php else : ?>
 			<a class="generic-link-out" href="<?php echo get_post_custom_values('link url')[0]; ?>">
 				<div>
