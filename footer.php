@@ -18,6 +18,7 @@
 </div><!-- #page -->
 
 <?php wp_footer(); ?>
+
 <!-- Twitter Widget -->
 <script>window.twttr = (function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0],
@@ -35,6 +36,7 @@
  
   return t;
 }(document, "script", "twitter-wjs"));</script>
+
 <!-- Google Analytics -->
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
