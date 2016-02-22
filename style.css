@@ -38,86 +38,95 @@ ul {
 /* line 3, _single.scss */
 .single #content {
   width: 70%;
+  max-width: 960px;
 }
-/* line 7, _single.scss */
+/* line 8, _single.scss */
 .single #primary {
   width: 100%;
 }
-/* line 10, _single.scss */
+/* line 11, _single.scss */
 .single #primary article {
   border: none;
 }
-/* line 12, _single.scss */
+/* line 13, _single.scss */
 .single #primary article:after {
   display: none;
 }
-/* line 18, _single.scss */
+/* line 19, _single.scss */
 .single .section-label {
   padding-left: 0;
 }
-/* line 22, _single.scss */
+/* line 23, _single.scss */
 .single .tags,
 .single .title,
 .single .link-title {
   width: 100%;
-  min-height: 0;
   border-left: none;
 }
 /* line 29, _single.scss */
 .single .tags {
   border-top: 1px solid #2C5EAC;
+  min-height: 0;
 }
 /* line 33, _single.scss */
+.single .title {
+  min-height: 0;
+}
+/* line 35, _single.scss */
 .single .title .section-label {
   border-bottom: none;
   padding-left: 0;
 }
-/* line 37, _single.scss */
+/* line 39, _single.scss */
 .single .title h2 {
   width: 70%;
   padding: 20px 0;
   margin-bottom: 0;
   font-size: 90px;
 }
-/* line 44, _single.scss */
+/* line 46, _single.scss */
 .single .link-title {
   width: 100%;
 }
-/* line 47, _single.scss */
+/* line 49, _single.scss */
 .single .link-title-link {
   width: 30%;
   padding: 20px 0;
 }
-/* line 51, _single.scss */
+/* line 53, _single.scss */
 .single .subtitle h3 {
   padding-left: 0;
   margin-bottom: 20px;
   width: 70%;
 }
-/* line 56, _single.scss */
+/* line 58, _single.scss */
 .single .entry-content p {
   margin-left: 0;
 }
-/* line 59, _single.scss */
+/* line 61, _single.scss */
 .single .link-title-content {
   display: flex;
 }
-/* line 62, _single.scss */
+/* line 64, _single.scss */
 .single .embed {
   width: 70%;
+  height: 0;
+  padding-bottom: 39.38%;
   border-top: none;
   border-left: none;
   position: relative;
 }
-/* line 67, _single.scss */
+/* line 71, _single.scss */
 .single .embed a {
   padding: 15px 0;
 }
-/* line 71, _single.scss */
+/* line 75, _single.scss */
 .single .embed blockquote {
   padding-top: 0;
+  width: 80%;
+  font-size: 2.4em;
 }
-/* line 75, _single.scss */
+/* line 81, _single.scss */
 .single .embed .generic-link-out {
   padding-bottom: 0;
   position: absolute;
@@ -127,26 +136,26 @@ ul {
   bottom: 10px;
   border: 1px solid #2C5EAC;
 }
-/* line 82, _single.scss */
+/* line 88, _single.scss */
 .single .embed .generic-link-out > div {
   width: 141px;
   height: 1.3em;
 }
 @media (max-width: 500px) {
-  /* line 90, _single.scss */
+  /* line 96, _single.scss */
   .single #content {
     width: 90%;
     margin: 0 5%;
   }
-  /* line 94, _single.scss */
+  /* line 100, _single.scss */
   .single #primary {
     margin-top: 40px;
   }
-  /* line 97, _single.scss */
+  /* line 103, _single.scss */
   .single .title h2 {
     font-size: 60px;
   }
-  /* line 100, _single.scss */
+  /* line 106, _single.scss */
   .single .title h2,
   .single .subtitle h3,
   .single .entry-content p {
@@ -154,7 +163,7 @@ ul {
     margin-left: 0;
     margin-right: 0;
   }
-  /* line 107, _single.scss */
+  /* line 113, _single.scss */
   .single .embed {
     border-top: none;
   }
