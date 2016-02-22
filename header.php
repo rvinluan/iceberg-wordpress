@@ -47,7 +47,7 @@ if(is_single() || is_page()) {
 <meta property="og:url" content="http://theiceberg.cool" />
 <meta property="og:type" content="website" />
 <meta property="og:title" content="The Iceberg" />
-<meta property="og:description" content="A Blog About Depth." />
+<meta property="og:description" content="The Iceberg is a blog showcasing people thinking in depth about things you didn't know anyone thought deeply about." />
 <meta property="og:image" content="<?php get_bloginfo('template_url'); ?>/images/iceberg-twitter-card.png" />
 <?php } ?>
 <!-- Typography -->
