@@ -91,7 +91,7 @@ ul {
 /* line 49, _single.scss */
 .single .link-title-link {
   width: 30%;
-  padding: 20px 0;
+  padding: 20px 20px 20px 0;
 }
 /* line 53, _single.scss */
 .single .subtitle h3 {
@@ -168,6 +168,8 @@ ul {
   /* line 115, _single.scss */
   .single .embed {
     border-top: none;
+    height: auto;
+    padding-bottom: 0;
   }
 }
 
