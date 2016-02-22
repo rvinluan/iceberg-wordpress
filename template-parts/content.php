@@ -12,9 +12,11 @@
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<div class="title">
 	    <div class="section-label">BY <?php the_author_link(); ?> // <?php echo get_the_date("m-d-y") ?></div>
+	    <a href="<?php echo get_permalink(); ?>">
 	    <?php
 	    the_title( '<h2>', '</h2>' );
 	    ?>
+	    </a>
 	</div>
 	<div class="tags">
 	    <div class="section-label">tags</div>

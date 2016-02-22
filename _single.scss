@@ -1,0 +1,111 @@
+.single {
+
+  #content {
+    width: 70%;
+  }
+
+  #primary {
+    width: 100%;
+
+    article {
+      border: none;
+      &:after {
+        display: none;
+      }
+    }
+  }
+
+  .section-label {
+    padding-left: 0;
+  }
+
+  .tags,
+  .title,
+  .link-title {
+    width: 100%;
+    min-height: 0;
+    border-left: none;
+  }
+  .tags {
+    border-top: 1px solid $blue-2;
+  }
+  .title {
+    .section-label {
+      border-bottom: none;
+      padding-left: 0;
+    }
+    h2 {
+      width: 70%;
+      padding: 20px 0;
+      margin-bottom: 0;
+      font-size: 90px;
+    }
+  }
+  .link-title {
+    width: 100%;
+  }
+  .link-title-link {
+    width: 30%;
+    padding: 20px 0;
+  }
+  .subtitle h3 {
+    padding-left: 0;
+    margin-bottom: 20px;
+    width: 70%;
+  }
+  .entry-content p {
+    margin-left: 0;
+  }
+  .link-title-content {
+    display: flex;
+  }
+  .embed {
+    width: 70%;
+    border-top: none;
+    border-left: none;
+    position: relative;
+    a {
+      padding: 15px 0;
+    }
+
+    blockquote {
+      padding-top: 0;
+    }
+    
+    .generic-link-out {
+      padding-bottom: 0;
+      position: absolute;
+      $pad: 10px;
+      top: $pad; left: $pad; right: $pad; bottom: $pad;
+      border: 1px solid $blue-2;
+      
+      & > div {
+        width: 141px;
+        height: 1.3em;
+      }
+    }
+  }
+
+  @media (max-width: 500px) {
+    #content {
+      width: 90%;
+      margin: 0 5%;
+    }
+    #primary {
+      margin-top: 40px;
+    }
+    .title h2 {
+      font-size: 60px;
+    }
+    .title h2,
+    .subtitle h3,
+    .entry-content p {
+      width: 100%;
+      margin-left: 0;
+      margin-right: 0;
+    }
+    .embed {
+      border-top: none;
+    }
+  }
+}
