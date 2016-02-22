@@ -493,11 +493,6 @@ article .embed blockquote,
 article .embed img {
   width: 100%;
 }
-/* line 351, style.scss */
-article .embed img {
-  filter: grayscale(100%);
-  -webkit-filter: grayscale(100%);
-}
 /* line 355, style.scss */
 article .embed blockquote {
   margin: 0;
