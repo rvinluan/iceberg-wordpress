@@ -30,6 +30,7 @@ get_header(); ?>
         <p>Powered by <a href="https://wordpress.org/">Wordpress</a>. Theme built on top of <a href="http://underscores.me/">Underscore</a>.</p>
         <p>Typeset in Brooklyn (<a href="http://vllg.com/constellation/brooklyn">Village</a>), FF More (<a href="https://typekit.com/fonts/ff-more-web-pro">FontFont</a>), and Input (<a href="http://input.fontbureau.com/">FontBureau</a>).</p>
         <p>Link icon by Casey Fluster, from <a href="https://thenounproject.com/search/?q=link&i=59196">The Noun Project</a>.</p>
+        <p>Special thanks to Cody, Flora, and Rumsey.</p>
       </div>
     </main><!-- #main -->
   </div><!-- #primary -->
