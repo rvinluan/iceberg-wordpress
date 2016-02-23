@@ -340,15 +340,16 @@ ul {
   padding: 10px;
 }
 /* line 209, style.scss */
-#content aside .twitter-link {
+#content aside .follow-link {
   color: #BDE5EC;
   padding: 10px;
   position: absolute;
   bottom: 0;
   left: 0;
+  margin-bottom: 0;
 }
 
-/* line 219, style.scss */
+/* line 220, style.scss */
 #primary {
   font-size: 1rem;
   position: relative;
@@ -357,7 +358,7 @@ ul {
   box-sizing: border-box;
 }
 
-/* line 227, style.scss */
+/* line 228, style.scss */
 article {
   border: 1px solid #2C5EAC;
   display: flex;
@@ -365,7 +366,7 @@ article {
   position: relative;
   margin-bottom: 200px;
 }
-/* line 234, style.scss */
+/* line 235, style.scss */
 article:after {
   content: "—";
   position: absolute;
@@ -376,47 +377,47 @@ article:after {
   font-size: 30px;
   color: white;
 }
-/* line 245, style.scss */
+/* line 246, style.scss */
 article div {
   box-sizing: border-box;
 }
-/* line 251, style.scss */
+/* line 252, style.scss */
 article .tags,
 article .link-title {
   width: 30%;
 }
-/* line 256, style.scss */
+/* line 257, style.scss */
 article .title,
 article .embed {
   width: 70%;
 }
-/* line 261, style.scss */
+/* line 262, style.scss */
 article .subtitle,
 article .entry-content,
 article .meta {
   width: 100%;
 }
-/* line 267, style.scss */
+/* line 268, style.scss */
 article .section-label,
 article .embed {
   border-top: 1px solid #2C5EAC;
 }
-/* line 272, style.scss */
+/* line 273, style.scss */
 article .tags,
 article .embed {
   border-left: 1px solid #2C5EAC;
 }
-/* line 277, style.scss */
+/* line 278, style.scss */
 article .tags,
 article .title {
   min-height: 300px;
 }
-/* line 279, style.scss */
+/* line 280, style.scss */
 article .tags .section-label,
 article .title .section-label {
   border-top: none;
 }
-/* line 286, style.scss */
+/* line 287, style.scss */
 article .meta li {
   display: inline-block;
   color: white;
@@ -427,11 +428,11 @@ article .meta li {
   line-height: 1.3;
   margin-right: 10px;
 }
-/* line 296, style.scss */
+/* line 297, style.scss */
 article .title a {
   text-decoration: none;
 }
-/* line 299, style.scss */
+/* line 300, style.scss */
 article .title h2 {
   font-family: "Brooklyn", Georgia, sans-serif;
   font-style: normal;
@@ -441,7 +442,7 @@ article .title h2 {
   margin: 0 0 50px 0;
   padding: 20px;
 }
-/* line 306, style.scss */
+/* line 307, style.scss */
 article .subtitle h3 {
   font-family: "ff-more-web-pro", Georgia, sans-serif;
   font-style: normal;
@@ -451,11 +452,11 @@ article .subtitle h3 {
   margin: 0;
   padding: 20px;
 }
-/* line 313, style.scss */
+/* line 314, style.scss */
 article .entry-content .section-label {
   margin-bottom: 20px;
 }
-/* line 316, style.scss */
+/* line 317, style.scss */
 article .entry-content p {
   font-family: "ff-more-web-pro", Georgia, sans-serif;
   font-style: normal;
@@ -465,11 +466,11 @@ article .entry-content p {
   margin: 10px 20px 0 20px;
   text-indent: 1em;
 }
-/* line 320, style.scss */
+/* line 321, style.scss */
 article .entry-content p:last-of-type {
   margin-bottom: 20px;
 }
-/* line 325, style.scss */
+/* line 326, style.scss */
 article .tags {
   font-family: "Input Sans Narr Lt", sans-serif;
   font-style: normal;
@@ -478,7 +479,7 @@ article .tags {
   line-height: 1.3;
   color: white;
 }
-/* line 329, style.scss */
+/* line 330, style.scss */
 article .link-title {
   font-family: "Input Sans Narr Lt", sans-serif;
   font-style: normal;
@@ -487,26 +488,26 @@ article .link-title {
   line-height: 1.3;
   color: white;
 }
-/* line 333, style.scss */
+/* line 334, style.scss */
 article .link-title a {
   padding: 20px;
   display: block;
 }
-/* line 340, style.scss */
+/* line 341, style.scss */
 article .embed {
   padding: 5px;
 }
-/* line 343, style.scss */
+/* line 344, style.scss */
 article .embed a {
   text-decoration: none;
 }
-/* line 346, style.scss */
+/* line 347, style.scss */
 article .embed iframe,
 article .embed blockquote,
 article .embed img {
   width: 100%;
 }
-/* line 355, style.scss */
+/* line 356, style.scss */
 article .embed blockquote {
   margin: 0;
   padding: 20px 20px 20px 30px;
@@ -520,24 +521,24 @@ article .embed blockquote {
   text-indent: -.4em;
   color: #2C5EAC;
 }
-/* line 364, style.scss */
+/* line 365, style.scss */
 article .embed .video-placeholder {
   width: 100%;
   padding-bottom: 56.25%;
   background-color: black;
 }
-/* line 369, style.scss */
+/* line 370, style.scss */
 article .embed .generic-link-out {
   display: block;
   width: 100%;
   padding-bottom: 56.25%;
   position: relative;
 }
-/* line 375, style.scss */
+/* line 376, style.scss */
 article .embed .generic-link-out:hover svg path {
   fill: #3EAEE3;
 }
-/* line 379, style.scss */
+/* line 380, style.scss */
 article .embed .generic-link-out > div {
   font-size: 3em;
   position: absolute;
@@ -549,23 +550,23 @@ article .embed .generic-link-out > div {
   right: 0;
   bottom: 0;
 }
-/* line 387, style.scss */
+/* line 388, style.scss */
 article .embed .generic-link-out > div svg {
   width: 55px;
   vertical-align: middle;
   display: inline;
 }
-/* line 388, style.scss */
+/* line 389, style.scss */
 article .embed .generic-link-out > div svg path {
   fill: white;
 }
 
-/* line 400, style.scss */
+/* line 401, style.scss */
 .pagination {
   width: 100%;
   margin-top: 300px;
 }
-/* line 404, style.scss */
+/* line 405, style.scss */
 .pagination .nav-previous,
 .pagination .nav-next {
   font-family: "Input Sans Narr Lt", sans-serif;
@@ -577,21 +578,21 @@ article .embed .generic-link-out > div svg path {
   border: 1px solid #2C5EAC;
   color: #2C5EAC;
 }
-/* line 410, style.scss */
+/* line 411, style.scss */
 .pagination .nav-previous a,
 .pagination .nav-next a {
   text-decoration: none;
 }
-/* line 415, style.scss */
+/* line 416, style.scss */
 .pagination .nav-previous {
   float: right;
 }
-/* line 418, style.scss */
+/* line 419, style.scss */
 .pagination .nav-next {
   float: left;
 }
 
-/* line 423, style.scss */
+/* line 424, style.scss */
 .site-footer {
   background-color: black;
   min-height: 100vh;
@@ -599,57 +600,57 @@ article .embed .generic-link-out > div svg path {
   background: linear-gradient(#141947, black);
 }
 
-/* line 432, style.scss */
+/* line 433, style.scss */
 .page-content {
   width: 100%;
 }
 
-/* line 436, style.scss */
+/* line 437, style.scss */
 #page-main {
   border: 1px solid #2C5EAC;
   width: 100%;
 }
-/* line 440, style.scss */
+/* line 441, style.scss */
 #page-main article {
   border: none;
   margin: 40px 0;
 }
-/* line 444, style.scss */
+/* line 445, style.scss */
 #page-main article p {
   text-indent: 0;
   padding-left: 20px;
 }
-/* line 449, style.scss */
+/* line 450, style.scss */
 #page-main article a {
   text-decoration: none;
   font-style: italic;
 }
-/* line 453, style.scss */
+/* line 454, style.scss */
 #page-main article a:hover {
   text-decoration: underline;
 }
-/* line 458, style.scss */
+/* line 459, style.scss */
 #page-main article:after {
   display: none;
 }
-/* line 463, style.scss */
+/* line 464, style.scss */
 #page-main hr {
   border: none;
   border-top: 1px solid #2C5EAC;
 }
 
-/* line 472, style.scss */
+/* line 473, style.scss */
 #about-page #page-main {
   display: flex;
   flex-wrap: wrap;
 }
-/* line 476, style.scss */
+/* line 477, style.scss */
 #about-page .about-text {
   width: 70%;
   border-right: 1px solid #2C5EAC;
   box-sizing: border-box;
 }
-/* line 481, style.scss */
+/* line 482, style.scss */
 #about-page .about-text p {
   font-family: "ff-more-web-pro", Georgia, sans-serif;
   font-style: normal;
@@ -658,16 +659,16 @@ article .embed .generic-link-out > div svg path {
   line-height: 1.4;
   margin: 0 20px;
 }
-/* line 487, style.scss */
+/* line 488, style.scss */
 #about-page .social {
   width: 30%;
 }
-/* line 490, style.scss */
+/* line 491, style.scss */
 #about-page .colophon {
   width: 100%;
   border-top: 1px solid #2C5EAC;
 }
-/* line 494, style.scss */
+/* line 495, style.scss */
 #about-page .social,
 #about-page .colophon {
   font-family: "Input Sans Narr Lt", sans-serif;
@@ -677,23 +678,23 @@ article .embed .generic-link-out > div svg path {
   line-height: 1.3;
   letter-spacing: 0;
 }
-/* line 499, style.scss */
+/* line 500, style.scss */
 #about-page .social p,
 #about-page .colophon p {
   margin: 20px;
 }
 
-/* line 507, style.scss */
+/* line 508, style.scss */
 .error404 #primary {
   width: 500px;
   margin: 0 auto;
 }
-/* line 511, style.scss */
+/* line 512, style.scss */
 .error404 #content {
   text-align: center;
   position: relative;
 }
-/* line 515, style.scss */
+/* line 516, style.scss */
 .error404 #content h1 {
   font-family: "ff-more-web-pro", Georgia, sans-serif;
   font-style: normal;
@@ -703,81 +704,81 @@ article .embed .generic-link-out > div svg path {
 }
 
 @media (max-width: 900px) {
-  /* line 524, style.scss */
+  /* line 525, style.scss */
   #content aside {
     width: 100%;
     margin-bottom: 100px;
     height: auto;
   }
-  /* line 529, style.scss */
-  #content aside .twitter-link {
+  /* line 530, style.scss */
+  #content aside .follow-link {
     position: static;
     margin-top: 1.3em;
     display: block;
   }
-  /* line 535, style.scss */
+  /* line 536, style.scss */
   .archive #content aside, .tag #content aside {
     display: none;
   }
 
-  /* line 541, style.scss */
+  /* line 542, style.scss */
   #primary {
     width: 100%;
   }
 
-  /* line 545, style.scss */
+  /* line 546, style.scss */
   article {
     left: 0;
   }
-  /* line 548, style.scss */
+  /* line 549, style.scss */
   article .title h2 {
     font-size: 60px;
   }
 }
 @media (max-width: 800px) {
-  /* line 555, style.scss */
+  /* line 556, style.scss */
   #about-page .about-text,
   #about-page .social {
     width: 100%;
     border-right: none;
   }
 
-  /* line 561, style.scss */
+  /* line 562, style.scss */
   #about-page .social {
     border-top: 1px solid #2C5EAC;
   }
 }
 @media (max-width: 600px) {
-  /* line 567, style.scss */
+  /* line 568, style.scss */
   article .title h2 {
     font-size: 50px;
   }
 }
 @media (max-width: 500px) {
-  /* line 574, style.scss */
+  /* line 575, style.scss */
   article .tags,
   article .title,
   article .embed,
   article .link-title {
     width: 100%;
   }
-  /* line 581, style.scss */
+  /* line 582, style.scss */
   article .title {
     min-height: 0;
   }
-  /* line 585, style.scss */
+  /* line 586, style.scss */
   article .tags {
     border-top: 1px solid #2C5EAC;
     min-height: 0;
   }
-  /* line 590, style.scss */
+  /* line 591, style.scss */
   article .tags,
   article .embed {
     border-left: none;
   }
 }
 @media (max-width: 320px) {
-  /* line 598, style.scss */
+  /* line 599, style.scss */
   article .title h2 {
     font-size: 45px;
   }

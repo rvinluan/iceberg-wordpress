@@ -206,12 +206,13 @@ ul {
             padding: 10px;
         }
 
-        .twitter-link {
+        .follow-link {
             color: $blue-5;
             padding: 10px;
             position: absolute;
             bottom: 0;
             left: 0;
+            margin-bottom: 0;
         }
     }
 }
@@ -526,7 +527,7 @@ article {
         margin-bottom: 100px;
         height: auto;
 
-        .twitter-link {
+        .follow-link {
             position: static;
             margin-top: 1.3em;
             display: block;

@@ -22,7 +22,7 @@ get_header(); ?>
       <div class="social">
         <div class="section-label">Updates</div>
         <p>The Iceberg updates weekly.</p>
-        <p>Follow <a href="http://twitter.com/icebergdotcool">@icebergdotcool</a> on Twitter.</p>
+        <p>Follow <a href="http://twitter.com/icebergdotcool">@icebergdotcool</a> on Twitter. Or use <a href="http://theiceberg.cool/feed">RSS.</a></p>
         <p>Email Robert at <a href="mailto:robert@theiceberg.cool">robert@theiceberg.cool</a></p>
       </div>
       <div class="colophon">
