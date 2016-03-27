@@ -1,2 +1,3 @@
 webfonts/
 .sass-cache/
+*.map

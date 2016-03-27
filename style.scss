@@ -186,33 +186,86 @@ ul {
     display: flex;
     flex-wrap: wrap;
 
-    aside {
-        border: 1px solid $blue-2;
+    #secondary {
         width: 29%;
         position: relative;
+        margin-right: 1%;
+    }
+
+    aside {
+        border: 1px solid $blue-2;
         height: 400px;
         box-sizing: border-box;
         vertical-align: top;
-        margin-right: 1%;
+        margin-bottom: 15px;
+        position: relative;
         @include input-sans(15px, 1.3);
+
+        &.newsletter {
+            height: auto;
+        }
+
+        .content {
+            padding: 10px;
+        }
 
         p {
             color: $blue-5;
-            padding: 10px;
             margin-top: 0;
-        }
-
-        .about-link {
-            padding: 10px;
         }
 
         .follow-link {
             color: $blue-5;
-            padding: 10px;
             position: absolute;
             bottom: 0;
             left: 0;
             margin-bottom: 0;
+            padding: 10px;
+        }
+
+        .mc-field-group {
+            margin-top: 50px;
+            display: flex;
+            align-items: flex-end;
+
+            input {
+                height: 2em;
+            }
+        }
+
+        input.email {
+            display: block;
+            width: 100%;
+            border: none;
+            border-bottom: 1px solid $blue-2;
+            background: none;
+            padding: 2px;
+            @include input-sans(14px, 1);
+            color: $blue-2;
+            font-style: normal;
+
+            &:focus {
+                outline: none;
+                border-bottom: 2px solid white;
+            }
+
+            &::-webkit-input-placeholder {
+                font-style: italic !important;
+                color: $blue-2 !important;
+            }
+        }
+
+        input.button {
+            border: 1px solid $blue-2;
+            background: none;
+            @include input-sans(14px, 1);
+            color: $blue-2;
+            cursor: pointer;
+
+            &:hover {
+                background-color: $blue-2;
+                color: white;
+            }
         }
     }
 }
@@ -522,7 +575,7 @@ article {
 //MEDIA QUERIES
 
 @media (max-width: 900px) {
-    #content aside {
+    #content #secondary {
         width: 100%;
         margin-bottom: 100px;
         height: auto;
@@ -531,6 +584,7 @@ article {
             position: static;
             margin-top: 1.3em;
             display: block;
+            padding: 0;
         }
 
         .archive &,
