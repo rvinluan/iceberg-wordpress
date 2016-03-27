@@ -18,14 +18,14 @@ if ( ! is_active_sidebar( 'sidebar-1' ) ) {
   <div class="content">
     <p class="about">The Iceberg is a blog that celebrates depth and craft. Its goal is to showcase people who think deeply about things you didn’t know anyone thought deeply about.</p>
     <a href="/about" class="about-link">Read the manifesto.</a>
-    <p class="follow-link">
-      Updates weekly. Follow along on Twitter (<a href="https://twitter.com/icebergdotcool">@icebergdotcool</a>) or <a href="http://theiceberg.cool/feed/">RSS</a>.
-    </p>
   </div>
 </aside>
 <aside class="newsletter">
-  <div class="section-label">newsletter</div>
+  <div class="section-label">updates</div>
   <div class="content">
+    <p class="follow-link">
+      Updates weekly. Follow along on Twitter (<a href="https://twitter.com/icebergdotcool">@icebergdotcool</a>) or <a href="http://theiceberg.cool/feed/">RSS</a>.
+    </p>
     <!-- Begin MailChimp Signup Form -->
     <p>Sign up for the newsletter and get weekly updates and B-Sides every Thursday.</p>
     <p><a href="http://us13.campaign-archive2.com/home/?u=3fe6665bc00b6eb1c420514bb&id=32b12fd93b" title="View previous campaigns">View previous issues.</a></p>
