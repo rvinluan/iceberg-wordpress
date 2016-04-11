@@ -1,0 +1,44 @@
+#masthead {
+  &.video-game-week-1-4-11 {
+      $theme-0: #ECE5D7; //light
+      $theme-1: #ECD7A8;
+      $theme-2: #EEA7A7;
+      $theme-3: #C96450;
+      $theme-4: #951B1E;
+
+      background-color: $theme-0;
+      background-image: url("images/banners/iceberg-VideoGameWeekBanner.png");
+      background-position: center 0;
+      background-repeat: none;
+      background-size: cover;
+      height: (640px+30px);
+      margin-bottom: 200px;
+
+      h1 {
+          display: none;
+      }
+
+      .gradient-1 {
+          background-color: $theme-1;
+          height: 30px;
+      }
+      .gradient-2 {
+          background-color: $theme-2;
+          height: 20px;
+      }
+      .gradient-3 {
+          background-color: $theme-3;
+          height: 10px;
+      }
+
+      &:after {
+          content: '';
+          height: 100px;
+          width: 100%;
+          position: absolute;
+          bottom: -100px;
+          background-image: linear-gradient($theme-4, $blue-0);
+      }
+
+  }
+}
