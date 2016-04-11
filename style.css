@@ -178,8 +178,8 @@ ul {
   background-color: #ECE5D7;
   background-image: url("images/banners/iceberg-VideoGameWeekBanner.png");
   background-position: center 0;
-  background-repeat: none;
-  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: auto 670px;
   height: 670px;
   margin-bottom: 200px;
 }
