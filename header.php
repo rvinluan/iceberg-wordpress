@@ -85,7 +85,7 @@ if(is_single() || is_page()) {
 </script>
 
 <div id="page" class="site">
-	<header id="masthead" class="site-header video-game-week-1-4-11" role="banner">
+	<header id="masthead" class="site-header" role="banner">
 		<div class="site-branding">
 		<?php
 				function randomErrorMessage() {
