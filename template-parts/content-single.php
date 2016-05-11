@@ -31,7 +31,7 @@ $embed_type = get_field("embed_type");
       <?php endif; ?>
       <div class="link-title-content">
       <a class="link-title-link" href="<?php echo $link_url ?>"><?php echo $link_title ?></a>
-        <div class="embed">
+        <div class="embed <?php echo $embed_type ?> <?php echo $link_type ?>">
           <?php if ($embed_type == "Embed") : ?>
             <?php echo get_field("embed_embed_code") ?>
           <?php elseif ($embed_type == "Image") : ?>

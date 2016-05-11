@@ -37,7 +37,7 @@
       padding-left: 0;
     }
     h2 {
-      width: 70%;
+      width: 80%;
       padding: 20px 0;
       margin-bottom: 0;
       font-size: 90px;
@@ -70,6 +70,11 @@
     border-top: none;
     border-left: none;
     position: relative;
+
+    &.Podcast {
+      height: auto;
+      padding-bottom: 0;
+    }
     a {
       padding: 15px 0;
     }
