@@ -41,6 +41,8 @@ if(is_single() || is_page()) {
 <meta property="og:title" content="<?php echo $og_title; ?>" />
 <meta property="og:description" content="<?php echo $og_desc; ?>" />
 <meta property="og:image" content="<?php echo $og_thumb; ?>" />
+<!-- Postlight Mercury for AMP -->
+<link rel="amphtml" href="http://mercury.postlight.com/amp?url=<?php echo $og_url ?>">
 <?
 } else {
 ?>
@@ -54,6 +56,7 @@ if(is_single() || is_page()) {
 <link href="//cloud.webtype.com/css/711a5d35-acce-4765-9093-f280ff4e4222.css" rel="stylesheet" type="text/css" />
 <script src="https://use.typekit.net/beo3fkm.js"></script>
 <script>try{Typekit.load({ async: true });}catch(e){}</script>
+
 
 <?php wp_head(); ?>
 </head>
